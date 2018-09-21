@@ -67,7 +67,7 @@ public class TimeEntryApiTest {
         MysqlDataSource dataSource = new MysqlDataSource();
 
         dataSource.setUrl(System.getenv("SPRING_DATASOURCE_URL"));
-
+testRead();
 
 
         JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
